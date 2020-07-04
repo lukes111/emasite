@@ -1,0 +1,116 @@
+.contrastString{
+	background-color: yellow;
+	font-weight: bold;
+}
+.borderBlack{
+	border: 1px solid black;
+}
+.product{
+	width: 19%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin: 8px;
+	padding: 7px;
+	background: white;
+	-webkit-transition: box-shadow .3s;
+	-moz-transition: box-shadow .3s;
+	transition: box-shadow .3s;
+	-webkit-box-shadow: 0 0 3px 0 #E9E9E9;
+	-moz-box-shadow: 0 0 3px 0 #E9E9E9;
+	box-shadow: 0 0 3px 0 #E9E9E9;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.product .image{
+	max-height: 25px;
+	display: block;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.product .stand{
+	width: 100%;
+	text-align: center;
+	font-size:16px;
+	font-family:"Segoe UI",Arial,sans-serif;
+	font-weight: bold;
+}
+.product .apron{
+	display: block;
+	font-size:12px;
+	font-family:"Segoe UI",Arial,sans-serif;
+}
+.product .aircraft{
+	display: block;
+	font-size:14px;
+	font-family:"Segoe UI",Arial,sans-serif;
+}
+.btnsearch,.buttonsearch{
+	border:none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:black;
+    background-color:rgb(210,212,214);
+    text-align:center;
+    cursor:pointer;
+}
+@media screen and (max-width: 720px) {
+	.product{
+		width: 44%;
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+		margin: 8px;
+		padding: 7px;
+		background: white;
+		-webkit-transition: box-shadow .3s;
+		-moz-transition: box-shadow .3s;
+		transition: box-shadow .3s;
+		-webkit-box-shadow: 0 0 3px 0 #E9E9E9;
+		-moz-box-shadow: 0 0 3px 0 #E9E9E9;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+		box-shadow: 0 0 20px rgba(0,0,0,.1);
+	}
+}
+@media screen and (max-width: 370px) {
+	.product{
+		width: 44%;
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+		margin: 8px;
+		padding: 7px;
+		background: white;
+		-webkit-transition: box-shadow .3s;
+		-moz-transition: box-shadow .3s;
+		transition: box-shadow .3s;
+		-webkit-box-shadow: 0 0 3px 0 #E9E9E9;
+		-moz-box-shadow: 0 0 3px 0 #E9E9E9;
+		margin-left: auto;
+		margin-right: auto;
+		border: none;
+		box-shadow: 0 0 20px rgba(0,0,0,.1);
+	}
+	.product .image{
+		max-width: 35px;
+		max-height: 22px;
+		display: block;
+		margin-top: 3px;
+		margin-bottom: 5px;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
